@@ -1,9 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Zeroc",
-    "subtitle": "从0开始的异世界cc",
+    "subtitle": "从0开始",
     "icon": "https://tswcc.github.io/images/favicon.ico",
-    "description": "欢迎来到zeroc的网络安全博客，在这里我们可以一起学习web安全，杂项安全，二进制安全，密码安全...我们共同进步！",
+    "description": "潜心学习",
     "home_page_url": "https://tswcc.github.io",
     "items": [
         {
