@@ -2,8 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tswcc.github.io</id>
     <title>Zeroc</title>
+    <subtitle>从0开始的异世界cc</subtitle>
+    <icon>https://tswcc.github.io/images/favicon.ico</icon>
     <link href="https://tswcc.github.io" />
-    <updated>2021-04-22T11:08:43.852Z</updated>
+    <author>
+      <name>zeroc</name>
+    </author>
+    <updated>2021-04-23T06:13:31.641Z</updated>
+    <category term="web安全" />
+    <category term="笔记" />
+    <category term="前端" />
+    <category term="web" />
+    <category term="theme" />
+    <category term="sql注入" />
+    <category term="CTF" />
+    <category term="python" />
+    <entry>
+        <id>https://tswcc.github.io/2021/04/23/Hexo/hello-world/</id>
+        <title>Hello World</title>
+        <link rel="alternate" href="https://tswcc.github.io/2021/04/23/Hexo/hello-world/"/>
+        <content type="html">&lt;p&gt;搭建博客的第一篇文章，好激动！&lt;br /&gt;
+&lt;img data-src=&#34;https://fp1.fghrsh.net/2017/02/16/t5lDK.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</content>
+        <updated>2021-04-23T06:13:31.641Z</updated>
+    </entry>
     <entry>
         <id>https://tswcc.github.io/2021/04/22/hello-world/</id>
         <title>Hello World</title>
