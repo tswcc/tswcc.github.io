@@ -8,10 +8,10 @@
         <author>
           <name>zeroc</name>
         </author>
-        <description>欢迎来到zeroc的网络安全博客，在这里我们可以一起学习web安全，杂项安全，二进制安全，密码安全，共同交流共同进步！</description>
+        <description>欢迎来到zeroc的网络安全博客，在这里我们可以一起学习web安全，杂项安全，二进制安全，密码安全...我们共同进步！</description>
         <language>zh-CN,en,default</language>
-        <pubDate>Fri, 23 Apr 2021 14:13:31 +0800</pubDate>
-        <lastBuildDate>Fri, 23 Apr 2021 14:13:31 +0800</lastBuildDate>
+        <pubDate>Thu, 22 Apr 2021 19:08:43 +0800</pubDate>
+        <lastBuildDate>Thu, 22 Apr 2021 19:08:43 +0800</lastBuildDate>
         <category term="web安全" />
         <category term="笔记" />
         <category term="前端" />
@@ -20,15 +20,6 @@
         <category term="sql注入" />
         <category term="CTF" />
         <category term="python" />
-        <item>
-            <guid isPermalink="true">https://tswcc.github.io/2021/04/23/Hexo/hello-world/</guid>
-            <title>Hello World</title>
-            <link>https://tswcc.github.io/2021/04/23/Hexo/hello-world/</link>
-            <pubDate>Fri, 23 Apr 2021 14:13:31 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;搭建博客的第一篇文章，好激动！&lt;br /&gt;
-&lt;img data-src=&#34;https://fp1.fghrsh.net/2017/02/16/t5lDK.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
- ]]></description>
-        </item>
         <item>
             <guid isPermalink="true">https://tswcc.github.io/2021/04/22/hello-world/</guid>
             <title>Hello World</title>

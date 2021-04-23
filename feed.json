@@ -3,17 +3,9 @@
     "title": "Zeroc",
     "subtitle": "从0开始的异世界cc",
     "icon": "https://tswcc.github.io/images/favicon.ico",
-    "description": "欢迎来到zeroc的网络安全博客，在这里我们可以一起学习web安全，杂项安全，二进制安全，密码安全，共同交流共同进步！",
+    "description": "欢迎来到zeroc的网络安全博客，在这里我们可以一起学习web安全，杂项安全，二进制安全，密码安全...我们共同进步！",
     "home_page_url": "https://tswcc.github.io",
     "items": [
-        {
-            "id": "https://tswcc.github.io/2021/04/23/Hexo/hello-world/",
-            "url": "https://tswcc.github.io/2021/04/23/Hexo/hello-world/",
-            "title": "Hello World",
-            "date_published": "2021-04-23T06:13:31.641Z",
-            "content_html": "<p>搭建博客的第一篇文章，好激动！<br />\n<img data-src=\"https://fp1.fghrsh.net/2017/02/16/t5lDK.jpg\" alt=\"\" /></p>\n",
-            "tags": []
-        },
         {
             "id": "https://tswcc.github.io/2021/04/22/hello-world/",
             "url": "https://tswcc.github.io/2021/04/22/hello-world/",
