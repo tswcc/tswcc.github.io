@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://zeroc.ee</id>
+    <id>https://coding-pages-bucket-3556208-8690522-16505-584477-1300872718.cos-website.ap-hongkong.myqcloud.com</id>
     <title>Zeroc</title>
     <subtitle>从0开始</subtitle>
-    <icon>http://zeroc.ee/images/favicon.ico</icon>
-    <link href="http://zeroc.ee" />
+    <icon>https://coding-pages-bucket-3556208-8690522-16505-584477-1300872718.cos-website.ap-hongkong.myqcloud.com/images/favicon.ico</icon>
+    <link href="https://coding-pages-bucket-3556208-8690522-16505-584477-1300872718.cos-website.ap-hongkong.myqcloud.com" />
     <author>
       <name>zeroc</name>
     </author>
@@ -18,30 +18,30 @@
     <category term="CTF" />
     <category term="python" />
     <entry>
-        <id>http://zeroc.ee/2021/04/24/%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/excerpts/</id>
+        <id>https://coding-pages-bucket-3556208-8690522-16505-584477-1300872718.cos-website.ap-hongkong.myqcloud.com/2021/04/24/%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/excerpts/</id>
         <title>为提高网站的访问速度，本站采用国内国外双线路！</title>
-        <link rel="alternate" href="http://zeroc.ee/2021/04/24/%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/excerpts/"/>
+        <link rel="alternate" href="https://coding-pages-bucket-3556208-8690522-16505-584477-1300872718.cos-website.ap-hongkong.myqcloud.com/2021/04/24/%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/excerpts/"/>
         <content type="html">&lt;h1 id=&#34;双线路访问&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#双线路访问&#34;&gt;#&lt;/a&gt; 🔧双线路访问&lt;/h1&gt;
 &lt;p&gt;在 coding 和 github 分别部署了远程代码。DNS 处设置解析规则，国内走 coding 的香港节点。国外走 github 的美国节点，以此提高网站的访问速度。&lt;/p&gt;
 &lt;h1 id=&#34;评论搜索&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#评论搜索&#34;&gt;#&lt;/a&gt; 🔧评论，搜索&lt;/h1&gt;
 &lt;p&gt;由于 hexo 的主题，需要自己配置评论功能，和搜索功能。目前已经实现了相关配置。&lt;/p&gt;
 </content>
-        <category term="网站" scheme="http://zeroc.ee/categories/%E7%BD%91%E7%AB%99/" />
-        <category term="域名解析" scheme="http://zeroc.ee/categories/%E7%BD%91%E7%AB%99/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/" />
-        <category term="优化" scheme="http://zeroc.ee/categories/%E7%BD%91%E7%AB%99/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/%E4%BC%98%E5%8C%96/" />
-        <category term="优化" scheme="http://zeroc.ee/tags/%E4%BC%98%E5%8C%96/" />
-        <category term="教程" scheme="http://zeroc.ee/tags/%E6%95%99%E7%A8%8B/" />
+        <category term="网站" scheme="https://coding-pages-bucket-3556208-8690522-16505-584477-1300872718.cos-website.ap-hongkong.myqcloud.com/categories/%E7%BD%91%E7%AB%99/" />
+        <category term="域名解析" scheme="https://coding-pages-bucket-3556208-8690522-16505-584477-1300872718.cos-website.ap-hongkong.myqcloud.com/categories/%E7%BD%91%E7%AB%99/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/" />
+        <category term="优化" scheme="https://coding-pages-bucket-3556208-8690522-16505-584477-1300872718.cos-website.ap-hongkong.myqcloud.com/categories/%E7%BD%91%E7%AB%99/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/%E4%BC%98%E5%8C%96/" />
+        <category term="优化" scheme="https://coding-pages-bucket-3556208-8690522-16505-584477-1300872718.cos-website.ap-hongkong.myqcloud.com/tags/%E4%BC%98%E5%8C%96/" />
+        <category term="教程" scheme="https://coding-pages-bucket-3556208-8690522-16505-584477-1300872718.cos-website.ap-hongkong.myqcloud.com/tags/%E6%95%99%E7%A8%8B/" />
         <updated>2021-04-24T02:37:40.000Z</updated>
     </entry>
     <entry>
-        <id>http://zeroc.ee/2021/04/22/hello-world/</id>
+        <id>https://coding-pages-bucket-3556208-8690522-16505-584477-1300872718.cos-website.ap-hongkong.myqcloud.com/2021/04/22/hello-world/</id>
         <title>Hello World</title>
-        <link rel="alternate" href="http://zeroc.ee/2021/04/22/hello-world/"/>
+        <link rel="alternate" href="https://coding-pages-bucket-3556208-8690522-16505-584477-1300872718.cos-website.ap-hongkong.myqcloud.com/2021/04/22/hello-world/"/>
         <content type="html">&lt;p&gt;搭建博客的第一篇文章，好激动！&lt;br /&gt;
 &lt;img data-src=&#34;https://fp1.fghrsh.net/2017/02/16/t5lDK.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </content>
-        <category term="hello" scheme="http://zeroc.ee/categories/hello/" />
-        <category term="hello" scheme="http://zeroc.ee/tags/hello/" />
+        <category term="hello" scheme="https://coding-pages-bucket-3556208-8690522-16505-584477-1300872718.cos-website.ap-hongkong.myqcloud.com/categories/hello/" />
+        <category term="hello" scheme="https://coding-pages-bucket-3556208-8690522-16505-584477-1300872718.cos-website.ap-hongkong.myqcloud.com/tags/hello/" />
         <updated>2021-04-22T11:37:40.000Z</updated>
     </entry>
 </feed>
