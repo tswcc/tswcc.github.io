@@ -2,13 +2,13 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Zeroc",
     "subtitle": "从0开始",
-    "icon": "https://zeroc.ee/images/favicon.ico",
+    "icon": "http://zeroc.ee/images/favicon.ico",
     "description": "潜心学习",
-    "home_page_url": "https://zeroc.ee",
+    "home_page_url": "http://zeroc.ee",
     "items": [
         {
-            "id": "https://zeroc.ee/2021/04/24/%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/excerpts/",
-            "url": "https://zeroc.ee/2021/04/24/%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/excerpts/",
+            "id": "http://zeroc.ee/2021/04/24/%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/excerpts/",
+            "url": "http://zeroc.ee/2021/04/24/%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/excerpts/",
             "title": "为提高网站的访问速度，本站采用国内国外双线路！",
             "date_published": "2021-04-24T02:37:40.000Z",
             "content_html": "<h1 id=\"双线路访问\"><a class=\"anchor\" href=\"#双线路访问\">#</a> 🔧双线路访问</h1>\n<p>在 coding 和 github 分别部署了远程代码。DNS 处设置解析规则，国内走 coding 的香港节点。国外走 github 的美国节点，以此提高网站的访问速度。</p>\n<h1 id=\"评论搜索\"><a class=\"anchor\" href=\"#评论搜索\">#</a> 🔧评论，搜索</h1>\n<p>由于 hexo 的主题，需要自己配置评论功能，和搜索功能。目前已经实现了相关配置。</p>\n",
@@ -21,8 +21,8 @@
             ]
         },
         {
-            "id": "https://zeroc.ee/2021/04/22/hello-world/",
-            "url": "https://zeroc.ee/2021/04/22/hello-world/",
+            "id": "http://zeroc.ee/2021/04/22/hello-world/",
+            "url": "http://zeroc.ee/2021/04/22/hello-world/",
             "title": "Hello World",
             "date_published": "2021-04-22T11:37:40.000Z",
             "content_html": "<p>搭建博客的第一篇文章，好激动！<br />\n<img data-src=\"https://fp1.fghrsh.net/2017/02/16/t5lDK.jpg\" alt=\"\" /></p>\n",
