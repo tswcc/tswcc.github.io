@@ -3,8 +3,8 @@
     <channel>
         <title>Zeroc</title>
         <subtitle>从0开始</subtitle>
-        <icon>https://tswcc.github.io/images/favicon.ico</icon>
-        <link>https://tswcc.github.io</link>
+        <icon>https://zeroc.ee/images/favicon.ico</icon>
+        <link>https://zeroc.ee</link>
         <author>
           <name>zeroc</name>
         </author>
@@ -21,14 +21,14 @@
         <category term="CTF" />
         <category term="python" />
         <item>
-            <guid isPermalink="true">https://tswcc.github.io/2021/04/24/%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/excerpts/</guid>
+            <guid isPermalink="true">https://zeroc.ee/2021/04/24/%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/excerpts/</guid>
             <title>为提高网站的访问速度，本站采用国内国外双线路！</title>
-            <link>https://tswcc.github.io/2021/04/24/%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/excerpts/</link>
-            <category term="网站" scheme="https://tswcc.github.io/categories/%E7%BD%91%E7%AB%99/" />
-            <category term="域名解析" scheme="https://tswcc.github.io/categories/%E7%BD%91%E7%AB%99/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/" />
-            <category term="优化" scheme="https://tswcc.github.io/categories/%E7%BD%91%E7%AB%99/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/%E4%BC%98%E5%8C%96/" />
-            <category term="优化" scheme="https://tswcc.github.io/tags/%E4%BC%98%E5%8C%96/" />
-            <category term="教程" scheme="https://tswcc.github.io/tags/%E6%95%99%E7%A8%8B/" />
+            <link>https://zeroc.ee/2021/04/24/%E7%BD%91%E7%AB%99%E4%BC%98%E5%8C%96/excerpts/</link>
+            <category term="网站" scheme="https://zeroc.ee/categories/%E7%BD%91%E7%AB%99/" />
+            <category term="域名解析" scheme="https://zeroc.ee/categories/%E7%BD%91%E7%AB%99/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/" />
+            <category term="优化" scheme="https://zeroc.ee/categories/%E7%BD%91%E7%AB%99/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/%E4%BC%98%E5%8C%96/" />
+            <category term="优化" scheme="https://zeroc.ee/tags/%E4%BC%98%E5%8C%96/" />
+            <category term="教程" scheme="https://zeroc.ee/tags/%E6%95%99%E7%A8%8B/" />
             <pubDate>Sat, 24 Apr 2021 10:37:40 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;双线路访问&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#双线路访问&#34;&gt;#&lt;/a&gt; 🔧双线路访问&lt;/h1&gt;
 &lt;p&gt;在 coding 和 github 分别部署了远程代码。DNS 处设置解析规则，国内走 coding 的香港节点。国外走 github 的美国节点，以此提高网站的访问速度。&lt;/p&gt;
@@ -37,14 +37,11 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://tswcc.github.io/2021/04/22/hello-world/</guid>
+            <guid isPermalink="true">https://zeroc.ee/2021/04/22/hello-world/</guid>
             <title>Hello World</title>
-            <link>https://tswcc.github.io/2021/04/22/hello-world/</link>
-            <category term="网站" scheme="https://tswcc.github.io/categories/%E7%BD%91%E7%AB%99/" />
-            <category term="域名解析" scheme="https://tswcc.github.io/categories/%E7%BD%91%E7%AB%99/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/" />
-            <category term="优化" scheme="https://tswcc.github.io/categories/%E7%BD%91%E7%AB%99/%E5%9F%9F%E5%90%8D%E8%A7%A3%E6%9E%90/%E4%BC%98%E5%8C%96/" />
-            <category term="优化" scheme="https://tswcc.github.io/tags/%E4%BC%98%E5%8C%96/" />
-            <category term="教程" scheme="https://tswcc.github.io/tags/%E6%95%99%E7%A8%8B/" />
+            <link>https://zeroc.ee/2021/04/22/hello-world/</link>
+            <category term="hello" scheme="https://zeroc.ee/categories/hello/" />
+            <category term="hello" scheme="https://zeroc.ee/tags/hello/" />
             <pubDate>Thu, 22 Apr 2021 19:37:40 +0800</pubDate>
             <description><![CDATA[ &lt;p&gt;搭建博客的第一篇文章，好激动！&lt;br /&gt;
 &lt;img data-src=&#34;https://fp1.fghrsh.net/2017/02/16/t5lDK.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
