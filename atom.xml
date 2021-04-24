@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://zeroc.ee</id>
+    <id>https://tswcc.github.io</id>
     <title>Zeroc</title>
     <subtitle>从0开始</subtitle>
-    <icon>https://zeroc.ee/images/favicon.ico</icon>
-    <link href="https://zeroc.ee" />
+    <icon>https://tswcc.github.io/images/favicon.ico</icon>
+    <link href="https://tswcc.github.io" />
     <author>
       <name>zeroc</name>
     </author>
-    <updated>2021-04-22T09:49:32.000Z</updated>
+    <updated>2021-04-24T14:00:38.000Z</updated>
     <category term="web安全" />
     <category term="笔记" />
     <category term="前端" />
@@ -18,9 +18,34 @@
     <category term="CTF" />
     <category term="python" />
     <entry>
-        <id>https://zeroc.ee/2021/04/22/hello-world/</id>
+        <id>https://tswcc.github.io/2021/04/24/scan/ntp/index/</id>
+        <title>zmap的安装与使用-扫描国内NTP服务</title>
+        <link rel="alternate" href="https://tswcc.github.io/2021/04/24/scan/ntp/index/"/>
+        <content type="html">&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;开博客以来的的，第一次正经发文章，emmmm&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji@1.0.0/weibo/aini.png&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuZnJlZWJ1Zi5jb20vc2VjdG9vbC8xMTk4NS5odG1s&#34;&gt;Zmap 详细使用以及参数解释&lt;/span&gt; ：ntp 的方法解释，可以参考&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note primary&#34;&gt;
+&lt;p&gt;本文环境：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;🚀centos7&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;💌Finalshell&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;安装zmap&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装zmap&#34;&gt;#&lt;/a&gt; 安装 zmap🛀&lt;/h1&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;更新您的服务器&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yum -y update&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;wget&lt;/span&gt; https://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-13.noarch.rpm&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;rpm&lt;/span&gt; -Uvh epel-release-7-13.noarch.rpm&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;安装依赖环境&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; yum -y &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; gcc libcap  libpcap libpcap-devel &lt;span class=&#34;token function&#34;&gt;screen&lt;/span&gt; php dstat cmake gmp gmp-devel gengetopt byacc flex &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; json-c&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;sudo&lt;/span&gt; yum -y &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; cmake gmp-devel gengetopt libpcap-devel flex byacc json-c-devel libunistring-devel&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;安装ZMAP&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;yum -y &lt;span class=&#34;token function&#34;&gt;install&lt;/span&gt; zmap&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;扫描ntp服务️&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#扫描ntp服务️&#34;&gt;#&lt;/a&gt; 扫描 NTP 服务☎️&lt;/h1&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;开始扫描放大列表&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;全球&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;screen&lt;/span&gt; zmap -p &lt;span class=&#34;token number&#34;&gt;123&lt;/span&gt; -M udp --probe-args&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;file:/root/ntp_123_monlist.pkt -o monlist_fingerprint.txt -B 100000M&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;国内&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;screen&lt;/span&gt; zmap -p &lt;span class=&#34;token number&#34;&gt;123&lt;/span&gt; -M udp --probe-args&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;file:/root/ntp_123_monlist.pkt -o monlist_fingerprint.txt -w /root/cnip.txt -B 100000M&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
+        <category term="工具" scheme="https://tswcc.github.io/categories/%E5%B7%A5%E5%85%B7/" />
+        <category term="主机发现" scheme="https://tswcc.github.io/categories/%E5%B7%A5%E5%85%B7/%E4%B8%BB%E6%9C%BA%E5%8F%91%E7%8E%B0/" />
+        <category term="网络扫描" scheme="https://tswcc.github.io/categories/%E5%B7%A5%E5%85%B7/%E4%B8%BB%E6%9C%BA%E5%8F%91%E7%8E%B0/%E7%BD%91%E7%BB%9C%E6%89%AB%E6%8F%8F/" />
+        <category term="zmap" scheme="https://tswcc.github.io/tags/zmap/" />
+        <category term="教程" scheme="https://tswcc.github.io/tags/%E6%95%99%E7%A8%8B/" />
+        <updated>2021-04-24T14:00:38.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://tswcc.github.io/2021/04/22/hello-world/</id>
         <title>Hello World</title>
-        <link rel="alternate" href="https://zeroc.ee/2021/04/22/hello-world/"/>
+        <link rel="alternate" href="https://tswcc.github.io/2021/04/22/hello-world/"/>
         <content type="html">&lt;p&gt;第一篇博客，好激动！&lt;/p&gt;
 </content>
         <updated>2021-04-22T09:49:32.000Z</updated>

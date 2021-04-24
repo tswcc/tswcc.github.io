@@ -2,13 +2,27 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Zeroc",
     "subtitle": "从0开始",
-    "icon": "https://zeroc.ee/images/favicon.ico",
+    "icon": "https://tswcc.github.io/images/favicon.ico",
     "description": "潜心学习",
-    "home_page_url": "https://zeroc.ee",
+    "home_page_url": "https://tswcc.github.io",
     "items": [
         {
-            "id": "https://zeroc.ee/2021/04/22/hello-world/",
-            "url": "https://zeroc.ee/2021/04/22/hello-world/",
+            "id": "https://tswcc.github.io/2021/04/24/scan/ntp/index/",
+            "url": "https://tswcc.github.io/2021/04/24/scan/ntp/index/",
+            "title": "zmap的安装与使用-扫描国内NTP服务",
+            "date_published": "2021-04-24T14:00:38.000Z",
+            "content_html": "<div class=\"note info\">\n<p>开博客以来的的，第一次正经发文章，emmmm<img data-src=\"https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji@1.0.0/weibo/aini.png\" alt=\"img\" /></p>\n<ul>\n<li><span class=\"exturl\" data-url=\"aHR0cHM6Ly93d3cuZnJlZWJ1Zi5jb20vc2VjdG9vbC8xMTk4NS5odG1s\">Zmap 详细使用以及参数解释</span> ：ntp 的方法解释，可以参考</li>\n</ul>\n</div>\n<div class=\"note primary\">\n<p>本文环境：</p>\n<p><strong>🚀centos7</strong></p>\n<p><strong>💌Finalshell</strong></p>\n</div>\n<h1 id=\"安装zmap\"><a class=\"anchor\" href=\"#安装zmap\">#</a> 安装 zmap🛀</h1>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>更新您的服务器</pre></td></tr><tr><td data-num=\"2\"></td><td><pre>yum -y update</pre></td></tr><tr><td data-num=\"3\"></td><td><pre></pre></td></tr><tr><td data-num=\"4\"></td><td><pre><span class=\"token function\">wget</span> https://dl.fedoraproject.org/pub/epel/7/x86_64/Packages/e/epel-release-7-13.noarch.rpm</pre></td></tr><tr><td data-num=\"5\"></td><td><pre><span class=\"token function\">sudo</span> <span class=\"token function\">rpm</span> -Uvh epel-release-7-13.noarch.rpm</pre></td></tr><tr><td data-num=\"6\"></td><td><pre></pre></td></tr><tr><td data-num=\"7\"></td><td><pre>安装依赖环境</pre></td></tr><tr><td data-num=\"8\"></td><td><pre><span class=\"token function\">sudo</span> yum -y <span class=\"token function\">install</span> gcc libcap  libpcap libpcap-devel <span class=\"token function\">screen</span> php dstat cmake gmp gmp-devel gengetopt byacc flex <span class=\"token function\">git</span> json-c</pre></td></tr><tr><td data-num=\"9\"></td><td><pre></pre></td></tr><tr><td data-num=\"10\"></td><td><pre><span class=\"token function\">sudo</span> yum -y <span class=\"token function\">install</span> cmake gmp-devel gengetopt libpcap-devel flex byacc json-c-devel libunistring-devel</pre></td></tr><tr><td data-num=\"11\"></td><td><pre>安装ZMAP</pre></td></tr><tr><td data-num=\"12\"></td><td><pre>yum -y <span class=\"token function\">install</span> zmap</pre></td></tr></table></figure><h1 id=\"扫描ntp服务️\"><a class=\"anchor\" href=\"#扫描ntp服务️\">#</a> 扫描 NTP 服务☎️</h1>\n<figure class=\"highlight bash\"><figcaption data-lang=\"bash\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>开始扫描放大列表</pre></td></tr><tr><td data-num=\"2\"></td><td><pre>全球</pre></td></tr><tr><td data-num=\"3\"></td><td><pre><span class=\"token function\">screen</span> zmap -p <span class=\"token number\">123</span> -M udp --probe-args<span class=\"token operator\">=</span>file:/root/ntp_123_monlist.pkt -o monlist_fingerprint.txt -B 100000M</pre></td></tr><tr><td data-num=\"4\"></td><td><pre>国内</pre></td></tr><tr><td data-num=\"5\"></td><td><pre><span class=\"token function\">screen</span> zmap -p <span class=\"token number\">123</span> -M udp --probe-args<span class=\"token operator\">=</span>file:/root/ntp_123_monlist.pkt -o monlist_fingerprint.txt -w /root/cnip.txt -B 100000M</pre></td></tr></table></figure>",
+            "tags": [
+                "工具",
+                "主机发现",
+                "网络扫描",
+                "zmap",
+                "教程"
+            ]
+        },
+        {
+            "id": "https://tswcc.github.io/2021/04/22/hello-world/",
+            "url": "https://tswcc.github.io/2021/04/22/hello-world/",
             "title": "Hello World",
             "date_published": "2021-04-22T09:49:32.000Z",
             "content_html": "<p>第一篇博客，好激动！</p>\n",
